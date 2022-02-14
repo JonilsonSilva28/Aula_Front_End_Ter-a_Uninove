@@ -1,0 +1,32 @@
+h2 {
+    color: red;
+}
+
+#lor {
+    background-color: black;
+    color: white
+}
+
+.cor {
+    color: gray;
+}
+
+.cor2 {
+    color: tomato;
+}
+
+.jr {
+    border-top: 5px solid blue;
+    /* borda do topo (cima)*/
+    border-left: 5px solid red;
+    /* borda da esquerda */
+    border-right: 5px solid green;
+    /* borda da direita */
+    border-bottom: 5px solid yellow;
+    /* borda de baixo */
+    background-color: whitesmoke;
+    margin-bottom: 50px;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}

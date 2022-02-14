@@ -1,0 +1,25 @@
+#dv1 {
+    border: 5px solid rgb(0, 255, 0);
+}
+
+.cor1 {
+    background-color: #000000;
+}
+
+.cor2 {
+    color: #ffffff;
+}
+
+.cor3 {
+    background-color: #ffffff;
+}
+
+.cor4 {
+    /* R G B Decimal: 0 - 255  */
+    color: rgb(255, 255, 255);
+}
+
+.cor5 {
+    /* R G B Porcentagem: 0% - 100%*/
+    color: rgb(0%, 0%, 0%);
+}

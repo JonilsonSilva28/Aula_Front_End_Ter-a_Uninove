@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h2>Formulário</h2>
+    <form method="post" action="http://hebertphp.awardspace.us/recebe.php">
+        <fieldset>
+            <legend>Cadastro</legend>
+            <label for="login">Login</label><input type="text" id="login" name="login" placeholder="Digite o seu login"
+                required autofocus><span style="color:red">*</span><br>
+            <label for="senha">Senha</label><input type="password" id="senha" name="senha"
+                placeholder="Digite a sua senha" required><span style="color:red">*</span><br>
+            CEP <input type="number" id="cep" name="cep"><br>
+            <input type="hidden" name="oculto" value="será que foi??">
+            <p>Quais linguagens de programação você estudou em 2021?</p>
+            <!-- <input type="checkbox">Html e Css<br> -->
+            <input type="checkbox" name="javascript" value="javascript">Javascript <br>
+            <input type="checkbox" name="java" >Java<br>
+            <input type="checkbox" name="python">Python<br>
+            <input type="checkbox" name="php" checked>Php<br>
+          
+            <p>Você já ouviu falar em rede 5G?</p>
+            <input type="radio" name="rede5g" value="sim" checked> Sim<br>
+            <input type="radio" name="rede5g" value="nao"> Não<br>
+            <input type="radio" name="rede5g" value="talvez"> Talvez<br>
+
+            Selecione UF
+            <select name="uf" required>
+                <option value="">Selecione</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">MG</option>
+                <option value="SC" >SC</option>
+                <option value="ES">ES</option>
+                <option value="AC">AC</option>
+            </select><br>
+            Digite uma mensagem ou observação.
+            <textarea name="obs" id="obs" cols="30" rows="10"></textarea>
+            <input type="submit" value="Enviar"><input type="reset" value="Limpar">
+        </fieldset>
+    </form>
+</body>
+
+</html>
